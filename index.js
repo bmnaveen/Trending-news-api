@@ -26,8 +26,8 @@ app.get('/',async(req,res)=>{
     }
 })
 
-app.post('/search',async(req,res)=>{
-    const search=req.body.search
+app.get('/:search',async(req,res)=>{
+    const search=req.params.search
     // console.log(req.body.search)
 
     try {
