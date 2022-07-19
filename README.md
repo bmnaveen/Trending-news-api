@@ -1,4 +1,4 @@
-# Trending new sapi
+# Trending news api
  
 Api:   https://war-news.herokuapp.com/
 
